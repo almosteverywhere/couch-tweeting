@@ -2,10 +2,10 @@
 import twitter
 import argparse
 
-api = twitter.Api(consumer_key='xmDTWUuqFSwbNEHRjwB9w',
+api = twitter.Api(consumer_key='YOURKEY',
 
-    consumer_secret='YqYWz0ibhjQcjT3HQvq4OoiVLA5oeYM5tnSAiDJhA', access_token_key='1553700698-Z2jb0LAIKERaiv5nmTxg515ZAKEwBffHvl0f3Mb', 
-    access_token_secret='V4zS5zdKgcKwSghWKuDJBtaY84a9Un7fBTNwn1hUsotFz') 
+    consumer_secret='YOURSECRET', access_token_key='YOURKEY', 
+    access_token_secret='YOURSECRET') 
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Post something to twitter!")
@@ -25,11 +25,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-# ok we just want to authorize every time and post tweets. 
-# so what we need is to get args and just 
